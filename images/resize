@@ -1,3 +1,17 @@
 #!/bin/sh
 
-for i in *.jpg; do convert -geometry 640 $i $(basename $i .jpg)-small.jpg; done  
+# Convert source stuff to small bitmaps, skiping finished images.
+
+# Pictures of the ventilator
+for i in *.jpg
+  do
+  outfile=$(basename $i .jpg)-small.png
+  [ -e $outfile ] || convert -geometry 640 $i $outfile
+done  
+
+# Flow charts
+for c in *.svg
+  do
+  outfile=$(basename $c .svg).png
+  [ -e $outfile ] || inkscape -z $c -e $outfile
+done
