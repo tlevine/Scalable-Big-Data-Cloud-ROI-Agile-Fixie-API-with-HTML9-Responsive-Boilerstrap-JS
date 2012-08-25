@@ -148,56 +148,56 @@
 
 <style>
 /* Layout */
-#nuna pre, #nuna img, #nuna code {
+#realtime pre, #nuna img, #nuna code {
   float: left;
 }
-#nuna pre {
+#realtime pre {
   width: 60%;
   background-color: black;
 }
 
 /* Syntax highlighting */
-#nuna code {
+#realtime code {
   color: #FFF;
 }
-#nuna .variable {
+#realtime .variable {
   color: #0F0;
 }
-#nuna .function {
+#realtime .function {
   color: #F00;
 }
-#nuna .brace {
+#realtime .brace {
   color: #00F;
 }
-#nuna .keyword {
+#realtime .keyword {
   color: #F0F;
 }
-#nuna .conjunction {
+#realtime .conjunction {
   color: #FF0;
 }
 </style>
-<section id="nuna" class="slide">
+<section id="realtime" class="slide">
 	<h2>Realtime</h2>
 	<!-- Code for the ventilator -->
 	<pre><code>
-<span class="function">ᓄᓇ  ᓯᓚ ᐱᕕᑦᓴᖅ</span>() <span class="conjunction">&lt;-</span> <span class="brace">[</span>
+<span class="function">ᓄᓇ  ᓯᓚ ᐱᕕᑦᓴᖅ</span><span class="brace">()</span> <span class="conjunction">&lt;-</span> <span class="brace">[</span>
   ᓯᓚᕐᔪᐊᒥᐅᑦ <span class="conjunction">-&gt;</span> ᐃᓅᕗᖅ.
   ᓄᓇ <span class="conjunction">&lt;-</span> ᑎᒍᕚ ᐊᑕᐅᓯᖅ ᑕᖅᑭᖅ.
 <span class="brace">]</span>
 
 <span class="function">ᓯᓚ ᐅᐃ</span> <span class="conjunction">&lt;-&gt;</span> <span class="brace">[</span>
-  ᕙᖅᐳᖅ <span class="keyword">ᓯᕿᓂᖅ</span> 365.2564
+  <span class="function">ᕙᖅᐳᖅ</span> <span class="variable">ᓯᕿᓂᖅ</span> 365.2564
   ᐅᓪᓗᓴᖅ 
-  ᓇᓕᕐᖃᕇᑦᑐᑦ <span class="keyword">ᐊᑕᐅᓯᖅ</span> ᐅᑭᐅᖅ. ᓯᕿᓂᖅ ᐊᐃᑦᓱᖅᐹ ᓄᓇ ᐅᕿᑦᑐᖅ.
+  <span class="variable">ᓇᓕᕐᖃᕇᑦᑐᑦ</span> <span class="keyword">ᐊᑕᐅᓯᖅ</span> <span class="conjunction">&lt;-</span> ᐅᑭᐅᖅ. ᓯᕿᓂᖅ ᐊᐃᑦᓱᖅᐹ ᓄᓇ ᐅᕿᑦᑐᖅ.
   ᓄᓇ ᑲᐃᕕᑦᑐᖅ 
 <span class="brace">]</span>
 
 <span class="function">ᐊᕝᕙᖅ ᑎᒍᕚ ᐅᕿᑦᑐᖅ</span> <span class="brace">|</span>ᐅᓪᓗᒃ<span class="brace">|</span> <span class="conjunction">&lt;-&gt;</span> <span class="brace">[</span>
-  ᐊᕝᕙᖅ ᑎᒍᕚ ᑖᖅᑎᐹ <span class="conjunction">-&gt;</span> ᐅᓐᓄᐊᖅ.
-  ᓈᒻ <span class="conjunction">-&gt;</span> ᒪᓴᒡᒐᑐᖅ ᓴᖅᑲᕐᓂᖅ ᐃᓱᐃᓗᑕᖅ ᐃᒪᖅ ᓴᒪᙶᑐᖅ <span class="keyword">ᐃᑦ</span>ᔨᓕᓕᖅᑐᖅ ᓇᓚᐃᓐᓂᑐᖅ ᐃᓱᐃᓗᑕᖅ ᑎᕝᕕᐊᓂ ᓱᖁᓯᖅᐹ ᐳᔪᖅ.
+  <span class="variable">ᐊᕝᕙᖅ ᑎᒍᕚ ᑖᖅᑎᐹ</span> <span class="conjunction">-&gt;</span> ᐅᓐᓄᐊᖅ.
+  <span class="variable">ᓈᒻ</span> <span class="conjunction">-&gt;</span> ᒪᓴᒡᒐᑐᖅ ᓴᖅᑲᕐᓂᖅ <span class="function">ᐃᓱᐃᓗᑕᖅ</span> ᐃᒪᖅ ᓴᒪᙶᑐᖅ <span class="keyword">ᐃᑦ</span>ᔨᓕᓕᖅᑐᖅ <span class="function">ᓇᓚᐃᓐᓂᑐᖅ</span> ᐃᓱᐃᓗᑕᖅ <span class="variable">ᑎᕝᕕᐊᓂ</span> ᓱᖁᓯᖅᐹ ᐳᔪᖅ.
 <span class="brace">]</span>
 
-ᖄ ᓄᓇ ᐹᕐᖃᐹ ᑕᕆᐅᕐᓂᑐᖅ ᐃᒪᖅ ᑕᐃᔭᐅᓂᖅ ᐃᒫᓗᒃ.
+<span class="keywoard">ᖄ ᓄᓇ</span> ᐹᕐᖃᐹ <span class="keyword">ᑕᕆᐅᕐᓂᑐᖅ</span> ᐃᒪᖅ ᑕ <span class="conjunction">&gt;---&lt;</span> ᐃᔭᐅᓂᖅ <span class="variable">ᐃᒫᓗᒃ</span>.
 	</code></pre>
 	<img src="images/nuna.gif" alt="ᓄᓇ">
 	<!-- Image from http://iu.wikipedia.org/wiki/File:Rotating_earth_(large).gif -->
