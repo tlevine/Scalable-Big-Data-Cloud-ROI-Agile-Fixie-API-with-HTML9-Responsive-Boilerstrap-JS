@@ -23,6 +23,44 @@
 	
 	<!-- Transition theme. More available in /themes/transition/ or create your own. -->
 	<link rel="stylesheet" href="themes/transition/horizontal-slide.css">
+
+	<!-- Code slide layout and syntax highlighting -->
+	<style>
+	/* Layout */
+	.code-slide pre, .code-slide img, .code-slide code {
+	  float: left;
+	}
+	#realtime pre {
+	  width: 60%;
+	}
+	.code-slide pre {
+	  padding: 0;
+	}
+	.code-slide code {
+	  background-color: black;
+	  padding: 1em;
+	}
+
+	/* Syntax highlighting */
+	.code-slide code {
+	  color: #FFF;
+	}
+	.code-slide .variable {
+	  color: #0F0;
+	}
+	.code-slide .function {
+	  color: #F00;
+	}
+	.code-slide .brace {
+	  color: #00F;
+	}
+	.code-slide .keyword {
+	  color: #F0F;
+	}
+	.code-slide .conjunction {
+	  color: #FF0;
+	}
+	</style>
 	
 	<!-- Required Modernizr file -->
 	<script src="modernizr.custom.js"></script>
@@ -108,7 +146,7 @@
 <section class="slide">
 	<h2>Cantaloupe</h2>
 	<ul>
-		<li>NoSQL</li>
+		<li>SASS</li>
 		<li>Mobile</li>
 		<li>Responsive</li>
 		<li>GeoJSON</li>
@@ -146,39 +184,68 @@
 	<img alt="Flow chart" src="images/flow-chart-architecture.png" >
 </section>
 
-<style>
-/* Layout */
-#realtime pre, #nuna img, #nuna code {
-  float: left;
-}
-#realtime pre {
-  width: 60%;
-  background-color: black;
-}
-
-/* Syntax highlighting */
-#realtime code {
-  color: #FFF;
-}
-#realtime .variable {
-  color: #0F0;
-}
-#realtime .function {
-  color: #F00;
-}
-#realtime .brace {
-  color: #00F;
-}
-#realtime .keyword {
-  color: #F0F;
-}
-#realtime .conjunction {
-  color: #FF0;
-}
-</style>
-<section id="realtime" class="slide">
-	<h2>Realtime</h2>
+<section id="carbon-neutral" class="slide code-slide">
+	<h2>Carbon-neutral</h2>
 	<!-- Code for the ventilator -->
+	<pre><code>
+<span class="function">ᐃᓄᒃᓱᒃ</span> <span class="conjunction">-&lt;</span> ᒪᑉᐱᑐᕋᐃᑦ ᐹᖅᓯᕇᒃ <span class="keywoard">ᖄᖓᓂ</span> <span class="variable">ᐊᑐᖅᑕᐅᓂᑯᐃᑦ</span> ᐊ <span class="conjunction">-&lt;</span> ᓪᓚᐅᑎᒥᑉᐹ ᑐᑭᐊ.
+
+ᑕᑯᑦᓱᒍᓱᑉᐳᖅ ᐊᑯᓐᓂᖓᓐᓂ ᒪᒡᒎᒃ ᐊᖑᑦ—ᐃᑎᐊᔪᑦ ᑕᑯᑦᓱᒍᓱᑉᐳᖅ ᑭᓪᓗᒧᑦ ᐊᔪᖅᑐᖅ ᑕᑯᑦᓱᒍᓱᑉᐳᖅ. ᐃᓚ ᑕᐃᔭᐅᓂᖅ. «ᒡᐋᐃᐅ» ᐊᑏᓗ ᐱᓪᓗᐊᕆᕚ ᐊᖑᑦ ᑕᑯᑦᓱᒍᓱᑉᐳᖅ ᐊᖑᑦ ᐊᒻᒪ ᐊᕐᓇᖅ. ᒪᒡᒎᒃ ᐊᖑᑦ ᖁᐊᔪᖅ ᓲᙳᓴᐅᑎ ᐅᔾᔨᕐᓇᕐᓂᖅᐹᖅ ᐊᖑᑦ ᑎᒃᓯᖅᐹ ᓄᑲᑉᐱᐊᒃ ᐃᑦᓯᕕᒻᒥᐅᓯᖅᐹ ᐅᓱᒃ ᑎᑦᓴᔪᖅ ᐃᓗᐊᓂ ᓄᑲᑉᐱᐊᖅ ᐃᑎᖅ ᐃᑎᕈᖅᐹ ᓯᑑᑦᑎᓯᒪᔪᖅ ᖃᐸᒃ. ᒡᐋᐃᐅ ᐱᒋᕚ ᖃᓂᖅ ᖁᐊᔪᖅ ᐊᒻᒪ.
+	</code></pre>
+</section>
+
+
+<section class="slide">
+	<h2>CRUD</h2>
+	<ul>
+		<li>Mercurial</li>
+		<li>Boson</li>
+		<li>4G</li>
+		<li>Hadoop</li>
+	</ul>
+</section>
+
+<section class="slide">
+	<h2>Walkable</h2>
+	<!-- Section of the real ventilator that we made with HTML9ResponsiveBoilerstrapJS (Pass it around.) -->
+	<img alt="Picture of the motor of the real ventilator that we made with HTML9ResponsiveBoilerstrapJS" src="images/motor-small.png" >
+</section>
+
+<section class="slide code-slide">
+	<h2>Dogfood</h2>
+	<!-- Code for that section of the ventilator -->
+	<pre><code>
+<span class="function">ᐃᓄᒃᓱᒃ</span> <span class="conjunction">-&lt;</span> ᒪᑉᐱᑐᕋᐃᑦ ᐹᖅᓯᕇᒃ <span class="keywoard">ᖄᖓᓂ</span> <span class="variable">ᐊᑐᖅᑕᐅᓂᑯᐃᑦ</span> ᐊ <span class="conjunction">-&lt;</span> ᓪᓚᐅᑎᒥᑉᐹ ᑐᑭᐊ.
+
+
+
+
+
+
+
+
+
+	</code></pre>
+</section>
+
+<section class="slide">
+	<h2>bzr</h2>
+	<img alt="Another section of the ventilator" src="images/out-small.png" >
+</section>
+
+<section class="slide">
+	<h2>Disrupt</h2>
+	<!-- Bullets -->
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</section>
+
+<section id="realtime" class="slide code-slide">
+	<h2>Realtime</h2>
+	<!-- More code for the ventilator -->
 	<pre><code>
 <span class="function">ᓄᓇ  ᓯᓚ ᐱᕕᑦᓴᖅ</span><span class="brace">()</span> <span class="conjunction">&lt;-</span> <span class="brace">[</span>
   ᓯᓚᕐᔪᐊᒥᐅᑦ <span class="conjunction">-&gt;</span> ᐃᓅᕗᖅ.
@@ -203,49 +270,16 @@
 	<!-- Image from http://iu.wikipedia.org/wiki/File:Rotating_earth_(large).gif -->
 </section>
 
-
-<section class="slide">
-	<h2>CRUD</h2>
-	<ul>
-		<li>Mercurial</li>
-		<li>Boson</li>
-		<li>4G</li>
-		<li>Hadoop</li>
-	</ul>
-</section>
-
-<section class="slide">
-	<h2>Walkable</h2>
-	<!-- Section of the real ventilator that we made with HTML9ResponsiveBoilerstrapJS (Pass it around.) -->
-	<img alt="Picture of the motor of the real ventilator that we made with HTML9ResponsiveBoilerstrapJS" src="images/motor-small.png" >
-</section>
-
-<section class="slide">
-	<h2>Dogfood</h2>
-	<!-- Code for that section of the ventilator -->
-</section>
-
-<section class="slide">
-	<h2>bzr</h2>
-	<!-- Another section of the ventilator -->
-	<img alt="Flow chart" src="images/out-small.png" >
-</section>
-
 <section class="slide">
 	<h2>Geocoder</h2>
 	<img alt="Flow chart" src="images/flow-chart-6.png" >
 </section>
 
 <section class="slide">
-	<h2>Carbon-neutral</h2>
-	<!-- More code for the ventilator -->
-</section>
-
-<section class="slide">
 	<h2>Conclusions</h2>
 	<!-- Nonsense -->
 	<ul>
-		<li>Disruptive</li>
+		<li>Disrupt</li>
 		<li>LEED-certified</li>
 		<li>Iterate</li>
 	</ul>
