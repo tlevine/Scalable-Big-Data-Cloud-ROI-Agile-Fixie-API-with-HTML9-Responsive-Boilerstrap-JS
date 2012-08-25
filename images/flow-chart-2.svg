@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="600"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="flow-chart-2.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-565.1535"
+     inkscape:cy="223.80636"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     width="800px"
+     inkscape:window-width="1680"
+     inkscape:window-height="1029"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-452.36218)">
+    <g
+       id="g3778-81"
+       transform="translate(-11.111689,148.49243)">
+      <rect
+         y="516.98132"
+         x="44.446712"
+         height="147.48228"
+         width="284.86304"
+         id="rect3004-5"
+         style="fill:#e6e6e6;fill-rule:evenodd;stroke:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3774-22"
+         y="601.30255"
+         x="185.6087"
+         style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="601.30255"
+           x="185.6087"
+           id="tspan3776-3"
+           sodipodi:role="line">agile</tspan></text>
+    </g>
+    <g
+       id="g3778-1"
+       transform="translate(424.26406,-42.426405)">
+      <rect
+         y="516.98132"
+         x="44.446712"
+         height="147.48228"
+         width="284.86304"
+         id="rect3004-6"
+         style="fill:#e6e6e6;fill-rule:evenodd;stroke:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3774-8"
+         y="601.30255"
+         x="185.6087"
+         style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="601.30255"
+           x="185.6087"
+           id="tspan3776-41"
+           sodipodi:role="line">modelling</tspan></text>
+    </g>
+    <g
+       id="g3778-3"
+       transform="translate(-6.060929,-37.375643)">
+      <rect
+         y="516.98132"
+         x="44.446712"
+         height="147.48228"
+         width="284.86304"
+         id="rect3004-89"
+         style="fill:#e6e6e6;fill-rule:evenodd;stroke:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3774-6"
+         y="601.30255"
+         x="185.6087"
+         style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="601.30255"
+           x="185.6087"
+           id="tspan3776-7"
+           sodipodi:role="line">regression</tspan></text>
+    </g>
+    <g
+       id="g3778-0"
+       transform="translate(231.32492,-308.09652)">
+      <g
+         id="g3915">
+        <rect
+           style="fill:#e6e6e6;fill-rule:evenodd;stroke:none"
+           id="rect3004-16"
+           width="284.86304"
+           height="147.48228"
+           x="233.34525"
+           y="962.45856" />
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="374.50723"
+           y="1046.7798"
+           id="text3774-0"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3776-52"
+             x="374.50723"
+             y="1046.7798">graph</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g3778-56"
+       transform="translate(205.06096,335.37065)">
+      <rect
+         y="516.98132"
+         x="44.446712"
+         height="147.48228"
+         width="284.86304"
+         id="rect3004-87"
+         style="fill:#e6e6e6;fill-rule:evenodd;stroke:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3774-81"
+         y="601.30255"
+         x="185.6087"
+         style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="601.30255"
+           x="185.6087"
+           id="tspan3776-1"
+           sodipodi:role="line">ROI</tspan></text>
+    </g>
+  </g>
+</svg>
