@@ -1,0 +1,3 @@
+#!/bin/sh
+
+for i in *.jpg; do convert -geometry 640 $i $(basename $i .jpg)-small.jpg; done  
